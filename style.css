@@ -1,0 +1,57 @@
+html, body{
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	
+}
+
+body{
+	width: 100%;
+	background: url(https://c1.staticflickr.com/5/4195/35147849696_21cf3f63a0.jpg) center/cover no-repeat fixed;
+	font-family: 'Lato', sans-serif;
+	color: #ffffff;
+}
+
+.main{
+	position: absolute;
+	margin: auto;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 275px;
+	height: 400px;
+}
+
+.avatar{
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-ms-border-radius: 100px;
+	-o-border-radius: 100px;
+	border-radius: 100px;
+	width: 175px;
+	height: 175px;
+}
+
+.nav-button{
+	color: #ffffff;
+	font-size: 2em;
+	transition: all 0.3s ease;
+}
+
+.nav-button:hover{
+	font-size: 3em;
+}
+
+ul.nav{
+	list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.nav li{
+	margin: 5px;
+	display: inline-block;
+
+}
